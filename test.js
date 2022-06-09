@@ -1,5 +1,4 @@
-let readlineSync = require('readline-sync');
-
+import * as readlineSync from 'readline-sync';
 // Ejercicio
 
 let mensaje = "Hola Mundo"
