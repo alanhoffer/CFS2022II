@@ -5,6 +5,7 @@
   "type": "commonjs",
   "main": "test.js",
   "scripts": {
+    "prueba": "tsc ./clase2/carrera.ts && node ./clase2/carrera.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/alanhoffer/CFS2022II/issues"
   },
-  "homepage": "https://github.com/alanhoffer/CFS2022II#readme"
+  "homepage": "https://github.com/alanhoffer/CFS2022II#readme",
+  "dependencies": {
+    "@types/node": "^17.0.41"
+  }
 }
