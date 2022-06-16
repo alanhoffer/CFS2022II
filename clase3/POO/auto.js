@@ -12,7 +12,7 @@ var Auto = /** @class */ (function () {
 exports.Auto = Auto;
 // let bucle = true;
 // let bmw = new Auto('bmw', 2020);
-// while (bucle){ss
+// while (bucle){ssasdasd
 //     let opcion = readlineSync.question('Que desea hacer? (1 Acelerar) (2 Frenar) (3 Luces) (4 Salir): ');
 //     switch (opcion){
 //         case '1':
