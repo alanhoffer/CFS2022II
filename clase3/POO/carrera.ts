@@ -25,7 +25,7 @@ class Carrera{
         let tiempo = 0;
         while(tiempo < this.duracion){
             for(let auto of this.participantes){
-                auto.posicion += 1 * auto.horsepower;
+                auto.posicion += 1 * auto.hp;
                 if(auto.posicion === this.distancia){
                     this.puestos.push(auto);
                 }

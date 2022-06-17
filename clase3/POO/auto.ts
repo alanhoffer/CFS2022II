@@ -3,13 +3,13 @@ import * as readlineSync from 'readline-sync';
 
 export class Auto {
     modelo: string;
-    horsepower: number;
+    hp: number;
     posicion: number = 0;
 
 
-    constructor(modelo: string, horsepower: number) {
+    constructor(modelo: string, hp: number) {
         this.modelo = modelo;
-        this.horsepower = horsepower;
+        this.hp = hp;
     }
 
 }
