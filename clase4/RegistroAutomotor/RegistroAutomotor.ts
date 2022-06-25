@@ -3,8 +3,8 @@ import Auto from './Auto';
 
 class RegistroAutomotor {
 
-    ListaVehiculos: Auto[] = [];
-    DadosDeAlta: Auto[] = [];
+    private ListaVehiculos: Auto[] = [];
+    private DadosDeAlta: Auto[] = [];
 
 
     constructor( ListaVehiculos: Auto[] = []) {
