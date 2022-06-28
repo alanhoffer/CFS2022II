@@ -1,9 +1,9 @@
 class Matriz {
 
 
-    matriz: string[][];
+    public matriz: string[][];
 
-    constructor(matriz: string[][] = []) {
+    public constructor(matriz: string[][] = []) {
         this.matriz = matriz;
     }
 
