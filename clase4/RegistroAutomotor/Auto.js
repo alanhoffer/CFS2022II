@@ -10,6 +10,7 @@ var Auto = /** @class */ (function () {
     Auto.prototype.getNombre = function () {
         return this.nombre;
     };
+  
     Auto.prototype.setNombre = function (nombre) {
         this.nombre = nombre;
     };
@@ -31,6 +32,8 @@ var Auto = /** @class */ (function () {
     Auto.prototype.setPatente = function (patente) {
         this.patente = patente;
     };
+
+
     return Auto;
 }());
 exports["default"] = Auto;
