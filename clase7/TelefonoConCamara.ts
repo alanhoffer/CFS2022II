@@ -3,16 +3,16 @@ import Telefono from "./Telefono";
 class TelefonoConCamara extends Telefono {
 
 
-    fotosSacadas:string[] = [];
+    private fotosSacadas:string[] = [];
     
 
-    sacarFoto(objeto:string){
+    public sacarFoto(objeto:string){
         this.fotosSacadas.push(objeto)
         console.log("Sacaste una foto");
     }
 
-    mostrarFotosSacadas():string []{
+    public mostrarFotosSacadas():string []{
         return this.fotosSacadas;
     }
-    
+
 }

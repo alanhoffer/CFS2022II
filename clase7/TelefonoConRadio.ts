@@ -2,13 +2,13 @@ import Telefono from "./Telefono";
 
 class TelefonoConRadio extends Telefono{
 
-    frecuenciaActual:number;
+    private frecuenciaActual:number;
 
-    verFrecuenciaActual():number{
+    public verFrecuenciaActual():number{
         return this.frecuenciaActual;
     }
 
-    cambiarFrecuenciaActual(frecuencia:number){
+    public cambiarFrecuenciaActual(frecuencia:number){
         this.frecuenciaActual = frecuencia;
     }
 

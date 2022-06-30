@@ -1,26 +1,26 @@
 export default class Telefono{
     
-    estaPrendido:boolean;
-    bateriaActual:number;
-    ultimoMensajeEnviado:string;
-    ultimaLlamada: string;
+    private estaPrendido:boolean;
+    private bateriaActual:number;
+    private ultimoMensajeEnviado:string;
+    private ultimaLlamada: string;
 
 
-    mandarMensaje(mensaje:string){
+    public mandarMensaje(mensaje:string){
         this.ultimoMensajeEnviado = mensaje;
         console.log("Mensaje enviado");
     }
 
-    hacerLlamada(persona:string){
+    public hacerLlamada(persona:string){
         this.ultimaLlamada = persona;
         console.log("Llamando");
     }
 
-    prenderApagar(){
+    public prenderApagar(){
         this.estaPrendido != this.estaPrendido
     }
 
-    mostrarBateria():number{
+    public mostrarBateria():number{
         return this.bateriaActual;
     }
 
