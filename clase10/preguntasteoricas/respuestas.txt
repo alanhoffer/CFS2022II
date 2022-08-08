@@ -1,0 +1,25 @@
+• Enumerar tres funcionalidades de NPM y describirlas
+
+- npm init: sirve para inicializar un nuevo proyecto npm donde podremos utilizar todas las funcionalidades que nos ofrece
+- npm install: sirve para instalar librerias
+- npm run para iniciar X script
+
+
+• ¿Cuál es el beneficio de usar un lenguaje con tipos?
+
+el beneficio de usar un lenguaje tipado es la prevencion de errores mediante la especificacion
+
+• ¿A qué se le llama variable interna? ¿Por qué internas?
+
+las variables internas se le llaman a la variable que esta dentro de un bloque de codigo y solamente puede ser utilizada ahi
+
+
+• Explicar la diferencia entre composición y herencia
+
+la diferencia entre composicion y herencia es que en herencia al ser padre / hijo tienen una relacion, en cambio en composicion no nesesariamente tienen que tener relacion.
+la composicion es simplemente una clase siendo utilizada dentro de otra
+
+• Explicar el mecanismo que provee TypeScript para manejar casos en donde los parámetros que le llegan a un método son inválidos
+
+no se si se refiere a esto pero, en TypeScript tenemos el TRY / CATCH que son parecidos al condicional IF / ELSE
+el TRY sirve como dice la palabra (probar ejecutar el codigo dentro de su bloque), si en esa ejecucion surge un error se llama al CATCH el cual va a agarrar el error y ejecutar su bloque de codigo

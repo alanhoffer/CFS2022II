@@ -3,25 +3,25 @@ import Auto from './Auto';
 
 class RegistroAutomotor {
 
-    ListaVehiculos: Auto[] = [];
-    DadosDeAlta: Auto[] = [];
+    private ListaVehiculos: Auto[] = [];
+    private DadosDeAlta: Auto[] = [];
 
 
-    constructor( ListaVehiculos: Auto[] = []) {
+    public constructor( ListaVehiculos: Auto[] = []) {
         this.ListaVehiculos = ListaVehiculos;
     }
 
-    getListaVehiculos(): Auto[] {
+    public getListaVehiculos(): Auto[] {
         return this.ListaVehiculos;
     }
 
-    agregarVehiculo(vehiculo: Auto): Auto[] {
+    public agregarVehiculo(vehiculo: Auto): Auto[] {
         this.ListaVehiculos.push(vehiculo);
         console.log("Vehiculo Agregado");
         return this.ListaVehiculos;
     }
 
-    eliminarVehiculo(patente: string) {
+    public eliminarVehiculo(patente: string) {
         let vehiculo = this.ListaVehiculos.find(Auto => Auto.getPatente() == patente)
         if(vehiculo){
             this.ListaVehiculos.splice(this.ListaVehiculos.indexOf(vehiculo), 1);
@@ -34,7 +34,7 @@ class RegistroAutomotor {
 
     }
 
-    actualizarVehiculo(patente: string, newnombre: string, newmarca: string, newmodelo: string,  newpatente: string ){
+    public actualizarVehiculo(patente: string, newnombre: string, newmarca: string, newmodelo: string,  newpatente: string ){
 
         let vehiculo = this.ListaVehiculos.find(Auto => Auto.getPatente() == patente)
         if(vehiculo){
@@ -50,7 +50,7 @@ class RegistroAutomotor {
         }
     }
 
-    darDeAlta(patente: string){
+    public darDeAlta(patente: string){
             
             let vehiculo = this.ListaVehiculos.find(Auto => Auto.getPatente() == patente)
             if(vehiculo){

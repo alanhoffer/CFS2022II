@@ -1,9 +1,9 @@
 export default class Auto {
     
-    nombre: string;
-    marca: string;
-    modelo: string;
-    patente: string;
+    public nombre: string;
+    public marca: string;
+    public modelo: string;
+    private patente: string;
 
 
     constructor(nombre: string, marca: string, modelo: string, patente: string) {
