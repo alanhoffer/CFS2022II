@@ -1,11 +1,12 @@
 import Articulo from "./Articulo";
 
-class Tienda {
+
+export default class Tienda {
 
     private listaArticulos: Articulo[];
     private listaVendidos: Articulo[];
 
-    constructor(listaArticulos:Articulo[]){
+    constructor(listaArticulos:Articulo[] = []){
         this.listaArticulos = listaArticulos;
     }
 
@@ -42,12 +43,12 @@ class Tienda {
     
     }
 
-    importarArticulos(){
-        // IMPORTAR ARTICULOS MEDIANTE UN TXT XDDD
+    importarArticulos(listaArticulosImp:Articulo[]){
+        listaArticulosImp.forEach(articulo => this.listaArticulos.push(articulo))
     }
 
-    exportarVendidos(){
-        // EXPORTAR ARTICULOS A UN TXT XDXD
+    exportarVendidos(): Articulo[]{
+        return this.listaVendidos;
     }
 
 }

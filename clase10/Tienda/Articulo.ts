@@ -10,11 +10,11 @@ export default class Articulo {
         this.precio = precio;
     }
 
-    get Id():number{
+    get Id(){
         return this.id;
     }
 
-    get Nombre(): string{
+    get Nombre(){
         return this.nombre;
     }
 
@@ -32,7 +32,7 @@ export default class Articulo {
         }
     }
 
-    get Precio(): number{
+    get Precio(){
         return this.precio;
     }
 
