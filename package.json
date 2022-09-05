@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/alanhoffer/CFS2022II#readme",
   "dependencies": {
-    "@types/node": "^17.0.41"
+    "@types/node": "^17.0.41",
+    "axios": "^0.27.2"
   }
 }
