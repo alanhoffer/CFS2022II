@@ -14,12 +14,10 @@ export default class Tienda {
     agregarArticulos(id:number, nombre:string, precio:number){
         try {
             let articulo = new Articulo(id, nombre, precio);
-            if(articulo){
+
                 this.listaArticulos.push(articulo)
-            }
-            else{
-                throw new Error("Error al crear el articulo nidea pq")
-            }
+
+
         }
         catch{
             console.log("Error al crear el articulo nidea pq")

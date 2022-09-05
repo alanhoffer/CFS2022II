@@ -1,6 +1,6 @@
 import Alumno from './Alumno'
 
-class GestorLegajos {
+export class GestorLegajos {
 
     private alumnos:Alumno[];
 
@@ -8,7 +8,7 @@ class GestorLegajos {
         this.alumnos = alumnos;
     }
 
-    obtenerPromedio(nombre?:string){
+    obtenerPromedio(nombre:string){
         if(nombre){
 
             let alumno = this.alumnos.find(alumno => alumno.getNombre() === nombre);

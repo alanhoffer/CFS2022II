@@ -10,15 +10,15 @@ export default class Articulo {
         this.precio = precio;
     }
 
-    get Id(){
+    getId(){
         return this.id;
     }
 
-    get Nombre(){
+    getNombre(){
         return this.nombre;
     }
 
-    set Nombre(nuevoNombre){
+    setNombre(nuevoNombre){
         try{ 
             if(nuevoNombre.length > 4){
                 this.nombre = nuevoNombre;
@@ -32,11 +32,11 @@ export default class Articulo {
         }
     }
 
-    get Precio(){
+    getPrecio(){
         return this.precio;
     }
 
-    set Precio(nuevoPrecio){
+    setPrecio(nuevoPrecio){
         try{ 
             this.precio = nuevoPrecio;
         }

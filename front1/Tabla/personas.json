@@ -1,0 +1,40 @@
+{
+"personas":[
+    {
+        "nombre":"alan",
+        "edad":25,
+        "pais": "Argentina",
+        "ciudad": "Bs as",
+        "mascota": "-"
+        
+    },
+    {
+        "nombre":"fran",
+        "edad":14,            
+        "pais": "Argentina",
+        "ciudad": "Bs as",
+        "mascota": "palenca"
+    },
+    {
+        "nombre":"facu",
+        "edad":34,
+        "pais": "Argentina",
+        "ciudad": "Bs as",
+        "mascota": "canario"
+    },
+    {
+        "nombre":"jeje",
+        "edad":24,
+        "pais": "Argentina",
+        "ciudad": "Bs as",
+        "mascota": "perro"
+    },
+    {
+        "nombre":"jeje",
+        "edad":24,
+        "pais": "Argentina",
+        "ciudad": "Bs as",
+        "mascota": "perro"
+    }
+]
+}
